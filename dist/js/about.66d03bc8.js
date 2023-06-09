@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkadthura"]=self["webpackChunkadthura"]||[]).push([[443],{1168:function(t,u,n){n.r(u),n.d(u,{default:function(){return i}});var a=function(){var t=this;t._self._c;return t._m(0)},s=[function(){var t=this,u=t._self._c;return u("div",{staticClass:"about"},[u("h1",[t._v("This is an about page")])])}],r=n(1001),e={},l=(0,r.Z)(e,a,s,!1,null,null,null),i=l.exports}}]);
+//# sourceMappingURL=about.66d03bc8.js.map
