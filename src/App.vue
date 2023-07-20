@@ -4,7 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </nav>
-    <router-view/>
+    <router-view class="pageView"/>
   </div>
 </template>
 
@@ -12,4 +12,16 @@
 @import "./styles/main.scss";
 </style>
 
-<!-- EDIT -->
+<script>
+import Parse from "parse";
+window.Parse = Parse
+import ParseUtility from "./utilities/parse";
+window.ParseUtility = ParseUtility
+
+export default {
+  name: "App",
+  async mounted() {
+    
+  }
+}
+</script>
